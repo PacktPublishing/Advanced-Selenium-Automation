@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-LogIn-Suite">
+              <span class="suite-name border-failed">LogIn-Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-LogIn-Suite">
+                    <span>C:\Users\Dee\workspace\AutomatedTest\src\test\resources\LogInCrossBrowserTestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-LogIn-Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-LogIn-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-LogIn-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-LogIn-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-LogIn-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-LogIn-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-LogIn-Suite" class="hide-methods failed suite-LogIn-Suite"> (hide)</a> <!-- hide-methods failed suite-LogIn-Suite -->
+                      <a href="#" panel-name="suite-LogIn-Suite" class="show-methods failed suite-LogIn-Suite"> (show)</a> <!-- show-methods failed suite-LogIn-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-LogIn-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LogIn-Suite" title="com.packt.tests.FirstTest" hash-for-method="firstTest(tomsmith, SuperSecretPassword!)">firstTest(tomsmith, SuperSecretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-LogIn-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LogIn-Suite" class="hide-methods passed suite-LogIn-Suite"> (hide)</a> <!-- hide-methods passed suite-LogIn-Suite -->
+                      <a href="#" panel-name="suite-LogIn-Suite" class="show-methods passed suite-LogIn-Suite"> (show)</a> <!-- show-methods passed suite-LogIn-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-LogIn-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LogIn-Suite" title="com.packt.tests.FirstTest" hash-for-method="firstTest(tomsmith, SuperSecretPassword!)">firstTest(tomsmith, SuperSecretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LogIn-Suite" title="com.packt.tests.FirstTest" hash-for-method="firstTest(tomsmith, SuperSecretPassword!)">firstTest(tomsmith, SuperSecretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LogIn-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LogIn-Suite" class="panel LogIn-Suite">
+          <div class="suite-LogIn-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.packt.tests.FirstTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstTest(tomsmith, SuperSecretPassword!)">
+                  </a> <!-- firstTest(tomsmith, SuperSecretPassword!) -->
+                  <span class="method-name">firstTest</span>
+                  <span class="parameters">(tomsmith, SuperSecretPassword!)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //a[@class=&apos;button secondary radius&apos;] (tried for 15 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.packt.base.BasePageObject.waitFor(BasePageObject.java:43)
+	at com.packt.base.BasePageObject.waitForElementPresent(BasePageObject.java:51)
+	at com.herokuapp.SecurePage.waitForSecurePage(SecurePage.java:22)
+	at com.packt.tests.FirstTest.firstTest(FirstTest.java:26)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //a[@class=&apos;button secondary radius&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;DEE-PC&apos;, ip: &apos;192.168.0.2&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at org.openqa.selenium.support.ui.ExpectedConditions$$Lambda$166/756324813.get(Unknown Source)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 24 more
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LogIn-Suite-class-failed -->
+          <div class="suite-LogIn-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.packt.tests.FirstTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstTest(tomsmith, SuperSecretPassword!)">
+                  </a> <!-- firstTest(tomsmith, SuperSecretPassword!) -->
+                  <span class="method-name">firstTest</span>
+                  <span class="parameters">(tomsmith, SuperSecretPassword!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstTest(tomsmith, SuperSecretPassword!)">
+                  </a> <!-- firstTest(tomsmith, SuperSecretPassword!) -->
+                  <span class="method-name">firstTest</span>
+                  <span class="parameters">(tomsmith, SuperSecretPassword!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LogIn-Suite-class-passed -->
+        </div> <!-- panel LogIn-Suite -->
+        <div panel-name="test-xml-LogIn-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Dee\workspace\AutomatedTest\src\test\resources\LogInCrossBrowserTestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; name=&quot;LogIn-Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;SuperSecretPassword!&quot;/&gt;
+  &lt;parameter name=&quot;username&quot; value=&quot;tomsmith&quot;/&gt;
+  &lt;test name=&quot;LogInTest-Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.packt.tests.FirstTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;firstTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.packt.tests.FirstTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LogInTest-Chrome --&gt;
+  &lt;test name=&quot;LogInTest-Firefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.packt.tests.FirstTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;firstTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.packt.tests.FirstTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LogInTest-Firefox --&gt;
+  &lt;test name=&quot;LogInTest-IE&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;ie&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.packt.tests.FirstTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;firstTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.packt.tests.FirstTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LogInTest-IE --&gt;
+&lt;/suite&gt; &lt;!-- LogIn-Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LogIn-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LogIn-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LogInTest-Chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LogInTest-Firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LogInTest-IE (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LogIn-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LogIn-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LogIn-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LogIn-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LogIn-Suite');
+function tableData_LogIn-Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'firstTest')
+data.setCell(0, 2, 'com.packt.tests.FirstTest')
+data.setCell(0, 3, 17894);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'firstTest')
+data.setCell(1, 2, 'com.packt.tests.FirstTest')
+data.setCell(1, 3, 2550);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'firstTest')
+data.setCell(2, 2, 'com.packt.tests.FirstTest')
+data.setCell(2, 3, 2158);
+window.suiteTableData['LogIn-Suite']= { tableData: data, tableDiv: 'times-div-LogIn-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <div id="times-div-LogIn-Suite">
+              </div> <!-- times-div-LogIn-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LogIn-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LogIn-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LogIn-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.packt.tests.FirstTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">negativeLogInTest</span>
+                <br/>
+                <span class="ignored-method-name">negativeLogInTest</span>
+                <br/>
+                <span class="ignored-method-name">negativeLogInTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LogIn-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.packt.tests.FirstTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@1e67b872)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ie, org.testng.TestRunner@60addb54)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, org.testng.TestRunner@3f2a3a5)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">firstTest(tomsmith, SuperSecretPassword!)</span>
+                <span class="method-start">3542 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">firstTest(tomsmith, SuperSecretPassword!)</span>
+                <span class="method-start">3753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6093 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">firstTest(tomsmith, SuperSecretPassword!)</span>
+                <span class="method-start">8089 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10247 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21654 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AdvancedInteractions-Suite" duration-ms="18229" started-at="2018-03-19T21:13:32Z" finished-at="2018-03-19T21:13:50Z">
+    <groups>
+    </groups>
+    <test name="AdvancedInteractions-Test" duration-ms="18229" started-at="2018-03-19T21:13:32Z" finished-at="2018-03-19T21:13:50Z">
+      <class name="com.packt.tests.AdvancedInteractions">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.AdvancedInteractions@34033bd0]" name="setUp" is-config="true" duration-ms="3340" started-at="2018-03-19T17:13:32Z" finished-at="2018-03-19T17:13:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="iframeTest()[pri:0, instance:com.packt.tests.AdvancedInteractions@34033bd0]" name="iframeTest" duration-ms="14163" started-at="2018-03-19T17:13:35Z" finished-at="2018-03-19T17:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iframeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.AdvancedInteractions@34033bd0]" name="tearDown" is-config="true" duration-ms="706" started-at="2018-03-19T17:13:50Z" finished-at="2018-03-19T17:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.AdvancedInteractions -->
+    </test> <!-- AdvancedInteractions-Test -->
+  </suite> <!-- AdvancedInteractions-Suite -->
+</testng-results>

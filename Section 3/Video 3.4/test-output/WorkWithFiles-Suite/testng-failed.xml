@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WorkWithFiles-Suite]">
+  <test name="WorkWithFiles-Test(failed)">
+    <classes>
+      <class name="com.packt.tests.WorkWithFiles">
+        <methods>
+          <include name="fileUploadTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.packt.tests.WorkWithFiles -->
+    </classes>
+  </test> <!-- WorkWithFiles-Test(failed) -->
+</suite> <!-- Failed suite [WorkWithFiles-Suite] -->

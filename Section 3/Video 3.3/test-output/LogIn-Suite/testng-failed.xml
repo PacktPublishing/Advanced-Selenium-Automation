@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [LogIn-Suite]" parallel="tests">
+  <parameter name="password" value="SuperSecretPassword!"/>
+  <parameter name="browser" value="ie"/>
+  <parameter name="username" value="tomsmith"/>
+  <test name="LogInTest-IE(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.packt.tests.FirstTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="firstTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.packt.tests.FirstTest -->
+    </classes>
+  </test> <!-- LogInTest-IE(failed) -->
+</suite> <!-- Failed suite [LogIn-Suite] -->

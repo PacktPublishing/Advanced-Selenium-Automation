@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FirstTest-Suite" duration-ms="15942" started-at="2018-03-22T20:11:05Z" finished-at="2018-03-22T20:11:21Z">
+    <groups>
+    </groups>
+    <test name="FirstTest-test" duration-ms="15942" started-at="2018-03-22T20:11:05Z" finished-at="2018-03-22T20:11:21Z">
+      <class name="com.packt.tests.FirstTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.FirstTest@2aafb23c]" name="setUp" is-config="true" duration-ms="3177" started-at="2018-03-22T16:11:05Z" finished-at="2018-03-22T16:11:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@455b6df1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="firstTest(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@2aafb23c]" name="firstTest" duration-ms="1803" started-at="2018-03-22T16:11:09Z" finished-at="2018-03-22T16:11:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@2aafb23c]" name="tearDown" is-config="true" duration-ms="699" started-at="2018-03-22T16:11:10Z" finished-at="2018-03-22T16:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.FirstTest@2aafb23c]" name="setUp" is-config="true" duration-ms="2506" started-at="2018-03-22T16:11:11Z" finished-at="2018-03-22T16:11:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@455b6df1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:0, instance:com.packt.tests.FirstTest@2aafb23c]" name="negativeLogInTest" duration-ms="2012" started-at="2018-03-22T16:11:14Z" data-provider="CsvDataProvider" finished-at="2018-03-22T16:11:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=1, password=SuperSecretPassword!, expectedError=Your username is invalid!, username=IncorrectUsername}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@2aafb23c]" name="tearDown" is-config="true" duration-ms="701" started-at="2018-03-22T16:11:16Z" finished-at="2018-03-22T16:11:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.FirstTest@2aafb23c]" name="setUp" is-config="true" duration-ms="2529" started-at="2018-03-22T16:11:16Z" finished-at="2018-03-22T16:11:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@455b6df1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:0, instance:com.packt.tests.FirstTest@2aafb23c]" name="negativeLogInTest" duration-ms="1742" started-at="2018-03-22T16:11:19Z" data-provider="CsvDataProvider" finished-at="2018-03-22T16:11:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=2, password=IncorrectPassword, expectedError=Your password is invalid!, username=tomsmith}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@2aafb23c]" name="tearDown" is-config="true" duration-ms="681" started-at="2018-03-22T16:11:21Z" finished-at="2018-03-22T16:11:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.FirstTest -->
+    </test> <!-- FirstTest-test -->
+  </suite> <!-- FirstTest-Suite -->
+</testng-results>
