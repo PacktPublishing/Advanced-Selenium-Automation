@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LogInCrossBrowserTestSuite" duration-ms="20105" started-at="2018-03-13T20:56:41Z" finished-at="2018-03-13T20:57:01Z">
+    <groups>
+    </groups>
+    <test name="LogInTest-Chrome" duration-ms="6245" started-at="2018-03-13T20:56:41Z" finished-at="2018-03-13T20:56:47Z">
+      <class name="com.packt.tests.FirstTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@3aa9e816]" name="setUp" is-config="true" duration-ms="3776" started-at="2018-03-13T16:56:41Z" finished-at="2018-03-13T16:56:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="firstTest(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@3aa9e816]" name="firstTest" duration-ms="1750" started-at="2018-03-13T16:56:44Z" finished-at="2018-03-13T16:56:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@3aa9e816]" name="tearDown" is-config="true" duration-ms="702" started-at="2018-03-13T16:56:46Z" finished-at="2018-03-13T16:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.FirstTest -->
+    </test> <!-- LogInTest-Chrome -->
+    <test name="LogInTest-Firefox" duration-ms="8095" started-at="2018-03-13T20:56:47Z" finished-at="2018-03-13T20:56:55Z">
+      <class name="com.packt.tests.FirstTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@4cdbe50f]" name="setUp" is-config="true" duration-ms="4584" started-at="2018-03-13T16:56:47Z" finished-at="2018-03-13T16:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="firstTest(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@4cdbe50f]" name="firstTest" duration-ms="2027" started-at="2018-03-13T16:56:52Z" finished-at="2018-03-13T16:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@4cdbe50f]" name="tearDown" is-config="true" duration-ms="1482" started-at="2018-03-13T16:56:54Z" finished-at="2018-03-13T16:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.FirstTest -->
+    </test> <!-- LogInTest-Firefox -->
+    <test name="LogInTest-IE" duration-ms="5686" started-at="2018-03-13T20:56:55Z" finished-at="2018-03-13T20:57:01Z">
+      <class name="com.packt.tests.FirstTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@75bd9247]" name="setUp" is-config="true" duration-ms="1732" started-at="2018-03-13T16:56:55Z" finished-at="2018-03-13T16:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="firstTest(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@75bd9247]" name="firstTest" duration-ms="3423" started-at="2018-03-13T16:56:57Z" finished-at="2018-03-13T16:57:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@75bd9247]" name="tearDown" is-config="true" duration-ms="530" started-at="2018-03-13T16:57:00Z" finished-at="2018-03-13T16:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.FirstTest -->
+    </test> <!-- LogInTest-IE -->
+  </suite> <!-- LogInCrossBrowserTestSuite -->
+</testng-results>

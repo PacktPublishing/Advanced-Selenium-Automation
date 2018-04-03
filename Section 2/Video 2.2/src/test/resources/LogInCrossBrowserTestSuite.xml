@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="LogInCrossBrowserTestSuite" verbose="1">
+	<parameter name="username" value="tomsmith"></parameter>
+	<parameter name="password" value="SuperSecretPassword!"></parameter>
+
+	<test name="LogInTest-Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.packt.tests.FirstTest">
+				<methods>
+					<include name="firstTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="LogInTest-Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.packt.tests.FirstTest">
+				<methods>
+					<include name="firstTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="LogInTest-IE">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="com.packt.tests.FirstTest">
+				<methods>
+					<include name="firstTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

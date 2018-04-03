@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Troubleshooting-Suite]">
+  <parameter name="browser" value="ie"/>
+  <test name="Troubleshooting-Test-IE(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.packt.tests.Troubleshooting">
+        <methods>
+          <include name="staleElementTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.packt.tests.Troubleshooting -->
+    </classes>
+  </test> <!-- Troubleshooting-Test-IE(failed) -->
+</suite> <!-- Failed suite [Troubleshooting-Suite] -->
