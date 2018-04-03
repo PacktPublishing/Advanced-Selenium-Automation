@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FirstTest-Suite" verbose="1">
+	
+	<test name="FirstTest-test">
+		<parameter name="username" value="tomsmith" />
+		<parameter name="password" value="SuperSecretPassword!" />
+		<classes>
+			<class name="com.packt.tests.FirstTest" />
+		</classes>
+	</test>
+
+</suite>

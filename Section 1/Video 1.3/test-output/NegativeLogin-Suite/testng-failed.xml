@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NegativeLogin-Suite]">
+  <test name="NegativeLogin-Test(failed)">
+    <classes>
+      <class name="com.packt.tests.FirstTest">
+        <methods>
+          <include name="negativeLogInTest"/>
+        </methods>
+      </class> <!-- com.packt.tests.FirstTest -->
+    </classes>
+  </test> <!-- NegativeLogin-Test(failed) -->
+</suite> <!-- Failed suite [NegativeLogin-Suite] -->

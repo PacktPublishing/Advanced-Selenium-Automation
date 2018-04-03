@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NegativeLogin-Suite" duration-ms="11392" started-at="2018-03-05T20:53:22Z" finished-at="2018-03-05T20:53:34Z">
+    <groups>
+    </groups>
+    <test name="NegativeLogin-Test" duration-ms="11392" started-at="2018-03-05T20:53:22Z" finished-at="2018-03-05T20:53:34Z">
+      <class name="com.packt.tests.FirstTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@6fffcba5]" name="setUp" is-config="true" duration-ms="3278" started-at="2018-03-05T15:53:22Z" finished-at="2018-03-05T15:53:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLogInTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@6fffcba5]" name="negativeLogInTest" duration-ms="2370" started-at="2018-03-05T15:53:26Z" data-provider="negativeLogInData" finished-at="2018-03-05T15:53:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IncorrectUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your username is invalid!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@6fffcba5]" name="tearDown" is-config="true" duration-ms="697" started-at="2018-03-05T15:53:28Z" finished-at="2018-03-05T15:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@6fffcba5]" name="setUp" is-config="true" duration-ms="2548" started-at="2018-03-05T15:53:29Z" finished-at="2018-03-05T15:53:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLogInTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@6fffcba5]" name="negativeLogInTest" duration-ms="1776" started-at="2018-03-05T15:53:31Z" data-provider="negativeLogInData" finished-at="2018-03-05T15:53:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IncorrectPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your password is invalid!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@6fffcba5]" name="tearDown" is-config="true" duration-ms="699" started-at="2018-03-05T15:53:33Z" finished-at="2018-03-05T15:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.FirstTest -->
+    </test> <!-- NegativeLogin-Test -->
+  </suite> <!-- NegativeLogin-Suite -->
+</testng-results>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NegativeLogin-Suite" duration-ms="13075" started-at="2018-03-05T23:10:20Z" finished-at="2018-03-05T23:10:33Z">
+    <groups>
+    </groups>
+    <test name="NegativeLogin-Test" duration-ms="13075" started-at="2018-03-05T23:10:20Z" finished-at="2018-03-05T23:10:33Z">
+      <class name="com.packt.tests.FirstTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@2b80d80f]" name="setUp" is-config="true" duration-ms="3508" started-at="2018-03-05T18:10:20Z" finished-at="2018-03-05T18:10:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:0, instance:com.packt.tests.FirstTest@2b80d80f]" name="negativeLogInTest" duration-ms="2943" started-at="2018-03-05T18:10:23Z" data-provider="CsvDataProvider" finished-at="2018-03-05T18:10:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=1, password=SuperSecretPassword!, expectedError=Your username is invalid!, username=Incorrect}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@2b80d80f]" name="tearDown" is-config="true" duration-ms="677" started-at="2018-03-05T18:10:26Z" finished-at="2018-03-05T18:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@2b80d80f]" name="setUp" is-config="true" duration-ms="2536" started-at="2018-03-05T18:10:27Z" finished-at="2018-03-05T18:10:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:0, instance:com.packt.tests.FirstTest@2b80d80f]" name="negativeLogInTest" duration-ms="2701" started-at="2018-03-05T18:10:29Z" data-provider="CsvDataProvider" finished-at="2018-03-05T18:10:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=2, password=IncorrectPassword, expectedError=Your password is invalid!, username=tomsmith}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@2b80d80f]" name="tearDown" is-config="true" duration-ms="686" started-at="2018-03-05T18:10:32Z" finished-at="2018-03-05T18:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.FirstTest -->
+    </test> <!-- NegativeLogin-Test -->
+  </suite> <!-- NegativeLogin-Suite -->
+</testng-results>
