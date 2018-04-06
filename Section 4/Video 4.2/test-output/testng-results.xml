@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="JavaScriptErrors-Suite" duration-ms="6644" started-at="2018-03-27T19:18:23Z" finished-at="2018-03-27T19:18:30Z">
+    <groups>
+    </groups>
+    <test name="JavaScriptErrors-test" duration-ms="6644" started-at="2018-03-27T19:18:23Z" finished-at="2018-03-27T19:18:30Z">
+      <class name="com.packt.tests.JavaScriptErrors">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.JavaScriptErrors@7cdbc5d3]" name="setUp" is-config="true" duration-ms="4553" started-at="2018-03-27T15:18:23Z" finished-at="2018-03-27T15:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1205bd62]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="javaScriptErrorsTest()[pri:0, instance:com.packt.tests.JavaScriptErrors@7cdbc5d3]" name="javaScriptErrorsTest" duration-ms="1293" started-at="2018-03-27T15:18:28Z" finished-at="2018-03-27T15:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScriptErrorsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.JavaScriptErrors@7cdbc5d3]" name="tearDown" is-config="true" duration-ms="773" started-at="2018-03-27T15:18:29Z" finished-at="2018-03-27T15:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.JavaScriptErrors -->
+    </test> <!-- JavaScriptErrors-test -->
+  </suite> <!-- JavaScriptErrors-Suite -->
+</testng-results>

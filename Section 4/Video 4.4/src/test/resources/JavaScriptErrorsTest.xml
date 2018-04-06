@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="JavaScriptErrors-Suite" verbose="1">
+	
+	<test name="JavaScriptErrors-test">
+		<classes>
+			<class name="com.packt.tests.JavaScriptErrors" >
+			</class>
+		</classes>
+	</test>
+
+</suite>

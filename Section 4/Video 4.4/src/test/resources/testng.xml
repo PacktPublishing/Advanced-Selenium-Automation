@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Big Suite" verbose="1" parallel="tests" thread-count="3">
+	<listeners>
+		<listener class-name="com.packt.base.ExtentReportListener" />
+	</listeners>
+
+	<test name="FirstTest-test">
+		<parameter name="username" value="tomsmith"></parameter>
+		<parameter name="password" value="SuperSecretPassword!"></parameter>
+		<classes>
+			<class name="com.packt.tests.FirstTest" >
+			</class>
+		</classes>
+	</test>
+
+	<test name="Troubleshooting">
+		<classes>
+			<class name="com.packt.tests.Troubleshooting">
+			</class>
+		</classes>
+	</test>
+
+</suite>

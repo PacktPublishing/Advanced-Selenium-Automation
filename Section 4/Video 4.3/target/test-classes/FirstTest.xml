@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FirstTest-Suite" verbose="1">
+	<listeners>
+		<listener class-name="com.packt.base.TestListener"></listener>
+	</listeners>
+
+	<test name="FirstTest-test">
+		<parameter name="username" value="tomsmith"></parameter>
+		<parameter name="password" value="SuperSecretPassword!"></parameter>
+		<classes>
+			<class name="com.packt.tests.FirstTest" >
+				<methods>
+					<include name="firstTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JavaScriptErrors-Suite]">
+  <test name="JavaScriptErrors-test(failed)">
+    <classes>
+      <class name="com.packt.tests.JavaScriptErrors">
+        <methods>
+          <include name="javaScriptErrorsTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.packt.tests.JavaScriptErrors -->
+    </classes>
+  </test> <!-- JavaScriptErrors-test(failed) -->
+</suite> <!-- Failed suite [JavaScriptErrors-Suite] -->
